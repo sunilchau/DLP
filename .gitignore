@@ -1,0 +1,44 @@
+# ------------------------
+# Python cache & logs
+# ------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.log
+
+# ------------------------
+# Virtual environments
+# ------------------------
+env/
+venv/
+.venv/
+ENV/
+.conda/
+*.conda
+
+# ------------------------
+# Conda environment files
+# ------------------------
+*.yaml
+*.yml
+
+# ------------------------
+# Jupyter notebooks
+# ------------------------
+.ipynb_checkpoints
+
+# ------------------------
+# IDE & Editor settings
+# ------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ------------------------
+# OS junk files
+# ------------------------
+.DS_Store
+Thumbs.db
