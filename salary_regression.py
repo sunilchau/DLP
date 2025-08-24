@@ -20,7 +20,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 ## streamlit app
-st.title('Customer Churn PRediction')
+st.title('Estimated Salary Prediction')
 
 # User input
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
@@ -62,5 +62,5 @@ input_data_scaled = scaler.transform(input_data)
 prediction = model.predict(input_data_scaled)
 prediction_salary = prediction[0][0]
 
-st.write(f'Predcited Estimated Salary: {prediction_salary:.2f}')
+st.write(f'Predicted Estimated Salary: {prediction_salary:.2f}')
 
